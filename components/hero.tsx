@@ -6,7 +6,7 @@ export default function Hero() {
     <div id="home" className="relative bg-gray-50 overflow-hidden pt-20">
       <div className="absolute inset-0 bg-gray-50">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/img/bg.jpg"
           alt="Background"
           fill
           className="object-cover opacity-10"
@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="lg:w-1/2 mt-12 lg:mt-0 relative">
             <div className="absolute -z-10 w-72 h-72 bg-coral-500 rounded-full opacity-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             <Image
-              src="/placeholder.svg?height=600&width=600"
+              src="/img/selfie.svg"
               alt="Crypto Event"
               width={500}
               height={500}

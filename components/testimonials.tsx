@@ -10,7 +10,7 @@ export default function Testimonials() {
             <div className="relative">
               <div className="absolute -z-10 w-64 h-64 bg-coral-500 rounded-full opacity-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/img/get-inspired.svg"
                 alt="Customer"
                 width={400}
                 height={400}
