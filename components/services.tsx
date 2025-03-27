@@ -53,7 +53,7 @@ export default function Services() {
           <h2 className="text-base font-semibold text-orange-500 uppercase tracking-wide">Solutions</h2>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Tailored for Web3 Communities</p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-            Whether you're running a DAO, managing an NFT project, or educating the crypto community, iFolk has you
+            Whether you&apos;re running a DAO, managing an NFT project, or educating the crypto community, iFolk has you
             covered.
           </p>
         </div>

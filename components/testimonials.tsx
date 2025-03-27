@@ -28,9 +28,9 @@ export default function Testimonials() {
 
             <div className="mt-8 bg-white p-8 rounded-xl shadow-sm">
               <p className="text-gray-600 text-lg italic">
-                "I've been organizing DAO meetings for years, but iFolk has completely transformed our experience. The
+                &quot;I&apos;ve been organizing DAO meetings for years, but iFolk has completely transformed our experience. The
                 token-gating works flawlessly, and the NFT ticketing feature has helped us increase attendance by 40%.
-                This is the platform Web3 communities have been waiting for!"
+                This is the platform Web3 communities have been waiting for!&quot;
               </p>
 
               <div className="mt-6 flex items-center">
