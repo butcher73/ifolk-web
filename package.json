@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "ifolk-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "fix": "next lint --fix",
     "prepare": "husky"
   },
   "dependencies": {
