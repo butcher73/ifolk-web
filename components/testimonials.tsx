@@ -37,7 +37,7 @@ export default function Testimonials() {
                 <div className="flex-shrink-0">
                   <Image
                     className="h-12 w-12 rounded-full"
-                    src="/placeholder.svg?height=100&width=100"
+                    src="/img/avatar-01.png"
                     alt="Alex Thompson"
                     width={48}
                     height={48}
@@ -45,7 +45,7 @@ export default function Testimonials() {
                 </div>
                 <div className="ml-4">
                   <div className="text-base font-medium text-gray-900">Alex Thompson</div>
-                  <div className="text-sm text-gray-500">Community Lead at BanklessDAO</div>
+                  <div className="text-sm text-gray-500">Community Lead at HopelessDAO</div>
                 </div>
               </div>
             </div>

@@ -54,7 +54,7 @@ export default function WorldMap() {
 
         <div className="relative">
           <Image
-            src="/placeholder.svg?height=600&width=1200"
+            src="/img/wm.svg"
             alt="World Map"
             width={1200}
             height={600}
