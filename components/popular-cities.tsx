@@ -13,17 +13,17 @@ export default function PopularCities() {
     {
       name: "Miami",
       eventCount: 24,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/img/miami.jpg",
     },
     {
       name: "Lisbon",
       eventCount: 18,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/img/lisbon.jpg",
     },
     {
       name: "Singapore",
       eventCount: 15,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/img/singapore.jpg",
     },
   ]
 
