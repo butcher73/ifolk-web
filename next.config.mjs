@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const baseConfig = {
+  output: "export", // 👈 Required for static export
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -40,10 +41,10 @@ function mergeConfig(base, override) {
 const getConfig = async () => {
   let userConfig
   try {
-    const mod = await import('./v0-user-next.config.mjs') // or .js/.ts depending on your setup
+    const mod = await import('./v0-user-next.config.mjs')
     userConfig = mod.default || mod
   } catch (e) {
-    // no custom config
+    // ignore error
   }
 
   return mergeConfig(baseConfig, userConfig)
